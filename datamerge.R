@@ -1,3 +1,4 @@
+##replication
 #first remove the 133 rows with no district/state identifier from covid death dataset
 
 covid_death <- covid_infected_deaths[order(covid_infected_deaths$lgd_state_id, covid_infected_deaths$lgd_district_id),]
